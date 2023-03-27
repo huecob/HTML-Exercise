@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table,th,td {
+        border: 1px solid black;
+    }
+</style>
+    <head> 
+        <title>Order a Melongram</title>
+            <h1><u>Order a Melongram</u></h1>
+    </head>
+
+<body>
+<p>
+There's no better way to show a loved one you care than with a Melongram.<br>
+<br>
+Each Melongram comes with a custom message printed on high-quality cardstock
+and your choice of a hand-picked, premium melon.
+</p>
+
+<head>
+<h2><u>Melon Options</u></h2>
+</head>
+
+Seasonal offerings and prices:<br>
+<br>
+<table>
+    <tr>
+        <th><strong><u>Melon Type</u></strong></th>
+        <th><strong><u>Melon Price</u></strong></th>
+    </tr>
+    <tr>
+        <td>Watermelon</td>
+        <td>$1,200.00</td>
+    </tr>
+    <tr>
+        <td>Canteloupe</td>
+        <td>$400.00</td>
+    </tr>
+    <tr>
+        <td>Honeydew</td>
+        <td>$1,750.00</td>
+    </tr>
+</table>
+
+<!-- Watermelon $1,200.00
+Canteloupe $400.00
+Honeydew $1,750.00 -->
+
+<h3>Order Form</h3>
+<form> 
+
+Orderer Name:
+<input type="text"
+        name="customer"
+        value="Full Name"><br><br>
+
+Recipient Name:
+<input type="text"
+        recipient="recipient"
+        value = "Recipient Name"> <br><br>
+
+<strong>Choose a melon:</strong> <br><br>
+<select name="Melon offerings">
+    <option value = "Choose Melon">Choose Melon</option>
+    <option value = "Watermelon">Watermelon</option>
+    <option value = "Canteloupe">Canteloupe</option>
+    <option value = "Honeydew">Honeydew</option>
+</select>
+<!-- Watermelon
+Canteloupe
+Honeydew -->
+<br><br>
+<strong>When should we deliver?</strong><br><br>
+
+<input type = "radio" name = "shipping" value = "AM">
+<label for="morning-delivery">Morning Delivery</label><br>
+
+<input type = "radio" name = "shipping" value = "PM">
+<label for="evening-delivery">Evening Delivery</label><br>
+
+<input type = "radio" name = "shipping" value = "ANY">
+<label for = "any-time-delivery">Any Time</label><br>
+<br>
+<!-- Morning
+Evening
+Any time -->
+
+<strong>Enter your message:</strong><br><br>
+<textarea>Enter thoughtful note for your package</textarea><br><br>
+
+<strong>Subscribe to our newsletter</strong><br>
+<input type = "checkbox" name="Subscribe" value="Subed" id = "subscription-yes-no">
+<label for = "subscription-yes-no">Yes</label>
+
+</form>
+</body>
+</html>
